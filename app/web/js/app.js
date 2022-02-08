@@ -36,8 +36,6 @@ window.onload = () => {
 	canvas.height = window.innerHeight;
     canvas.width = window.innerWidth;
 
-	Game.addEntity(new Ange("Ange", 0, 0, 0, 0))
-	Game.addEntity(new Demon("Demno", 64, 0, 0, 0))
-	Game.addEntity(new Fairy("Fairy", 128, 0, 0, 0))
-	Game.addEntity(new Human("Human", 192, 0, 0, 0))
+	Game.addEntity(new Card(CardValue.One, Color.Red, undefined))
+
 }
