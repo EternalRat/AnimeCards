@@ -1,0 +1,23 @@
+{
+  "name": "animecards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EternalRat/AnimeCards.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EternalRat/AnimeCards/issues"
+  },
+  "homepage": "https://github.com/EternalRat/AnimeCards#readme",
+  "devDependencies": {
+    "electron": "^17.0.0"
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+		<!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+		<link href="./styles/styles.css" rel="stylesheet">
+		<link href="./styles/headBar.css" rel="stylesheet">
+		<link href="./styles/homePage.css" rel="stylesheet">
+		<title>AnimeCards</title>
+	</head>
+	<body>
+		<div class="mainApp">
+			<div class="topBar">
+				<div class="titleBar">
+					<div class="title">
+						AnimeCards
+					</div>
+				</div>
+				<div class="titleBarBtns">
+					<button id="minimizeBtn" class="topBtn minimizeBtn"></button>
+					<button id="maxMinBtn" class="topBtn maxMinBtn"></button>
+					<button id="closeBtn" class="topBtn closeBtn"></button>
+				</div>
+			</div>
+			<div class="contentArea">
+				<div class="contentPages">
+				</div>
+			</div>
+		</div>
+
+		<!-- You can also require other files to run in this process -->
+		<script src="js/app.js"></script>
+	</body>
+</html>
